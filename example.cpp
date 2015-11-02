@@ -13,7 +13,13 @@ int main() {
 
 	for (int i = 0; i < 10; ++i)
 	{
-		cout << "Hello Kyle is totally not awsome." << endl;
+		if (i % 2 == 0)
+		{
+			cout << "Hello Kyle is totally not awsome." << endl;
+		} else {
+			cout << "Hello Kyle is totally awsome." << endl;
+		}
+		
 	}
 
 	second();
