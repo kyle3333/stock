@@ -13,7 +13,7 @@ int main() {
 
 	for (int i = 0; i < 10; ++i)
 	{
-		cout << "Hello Kyle is totally awsome." << endl;
+		cout << "Hello Kyle is totally not awsome." << endl;
 	}
 
 	second();
