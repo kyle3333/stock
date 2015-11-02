@@ -1,0 +1,13 @@
+
+#!/usr/bin/gnuplot
+
+reset
+set term jpeg size 1500,300
+set datafile separator ","
+set xdata time
+set timefmt "%Y-%m-%d"
+set format x "%Y-%m"
+set xrange ["2010-01-04":"2015-07-22"]
+set output "AAPL/AAPLGraph.jpeg"
+plot "AAPL/AAPL.csv" using 1:2 with lines lc rgb "blue"
+
